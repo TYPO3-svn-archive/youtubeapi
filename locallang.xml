@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for 'youtubeapi'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="fe_by">by</label>
+			<label index="fe_duration">Duration: </label>
+			<label index="fe_views">Views: </label>
+			<label index="fe_rating">Average rating: </label>
+			<label index="fe_favorites">Favorites: </label>
+			<label index="fe_comments">Comments: </label>
+      <label index="fe_keywords">Tags</label>
+      <label index="fe_channel">Channel</label>
+      <label index="fe_category">Category</label>
+      <label index="fe_user">User</label>
+      <label index="fe_maxResults">Show</label>
+      <label index="fe_submit">Search</label>
+      <label index="fe_totalResults">total result: </label>
+      <label index="fe_prev">previous</label>
+      <label index="fe_next">next</label>								
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="fe_by">von</label>
+			<label index="fe_duration">Dauer: </label>
+			<label index="fe_views">Views: </label>
+			<label index="fe_favorites">Favorisiert: </label>
+			<label index="fe_rating">durchschn. Bewertung: </label>
+			<label index="fe_comments">Kommentare: </label>
+      <label index="fe_keywords">Tags</label>
+      <label index="fe_channel">Channel</label>
+      <label index="fe_category">Kategorie</label>
+      <label index="fe_user">User</label>
+      <label index="fe_maxResults">Zeige</label>
+      <label index="fe_submit">Suchen</label>
+      <label index="fe_totalResults">Gefunden: </label>
+      <label index="fe_prev"><![CDATA[ zur&uuml;ck ]]></label>
+      <label index="fe_next">weiter</label>				
+		</languageKey>
+	</data>
+</T3locallang>
+

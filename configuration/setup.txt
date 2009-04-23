@@ -1,0 +1,67 @@
+// setting the configurations
+temp.tx_youtubeapi {
+	
+  pathToLanguageFile = EXT:youtubeapi/locallang.xml
+	pathToTemplateDirectory = EXT:youtubeapi/templates/
+	templateList = list.php
+	
+  // feedformat (atom, rss, json) - not supported yet
+	alt = atom
+	baseURL = http://gdata.youtube.com
+	maxResults = 5
+	
+	list {
+    textCrop = 150
+    playerWidth = 320
+    playerHeight = 240
+  }
+	single {
+	  # leave blank if singlepage should appear on listpage
+    singlePageUid =     
+    playerWidth = 425
+    playerHeight = 350
+  }
+}
+
+// Include the div class 
+includeLibs.tx_div = EXT:div/class.tx_div.php
+
+// Include the controller classes.
+includeLibs.tx_youtubeapi_controllers_retrieve = EXT:youtubeapi/controllers/class.tx_youtubeapi_controllers_retrieve.php
+
+//plugin.tx_youtubeapi_controllers_retrieve = USER_INT
+plugin.tx_youtubeapi.retrieve = USER_INT
+plugin.tx_youtubeapi.retrieve.userFunc = tx_youtubeapi_controllers_retrieve->main
+plugin.tx_youtubeapi.retrieve.configurations < temp.tx_youtubeapi
+
+tt_content.list.20.tx_youtubeapi =< plugin.tx_youtubeapi.retrieve
+
+
+
+// css definitions
+
+plugin.tx_youtubeapi {
+	_CSS_DEFAULT_STYLE (
+		
+    .tx-youtubeapi {
+		  width:100%;
+			padding:0.5em;
+      clear:both; 	
+		}
+		
+    .tx-youtubeapi-list {
+			float:left;	
+			width:50%;
+			padding:0.5em;
+		}
+		
+		.tx-youtubeapi-single {
+			padding:0.5em;
+		}
+		
+		.tx-youtubeapi-single #videoplayer {
+			text-align:center;
+		}
+	)
+}
+

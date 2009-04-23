@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'youtubeapi'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pluginLabel">Youtube Video Retriever</label>
+			<label index="listParameters">General</label>
+			<label index="displayParameters">Display</label>
+			<label index="config">Config</label>
+			<label index="displayPlayer">Player</label>
+			
+			<label index="searchTerm">Searchterm</label>
+			<label index="developerKey">Developerkey (get it at http://code.google.com/apis/youtube/dashboard/)</label>
+      <label index="maxResults">Number results per page</label>
+			<label index="singlePage">Singlepage</label>
+			<label index="orderBy">Sort by</label>
+			<label index="showEmbedded">Show videos Embedded</label>
+			
+			<label index="user">Youtube user</label>
+			<label index="category">Category</label>
+			<label index="keywords">Keyword(s)</label>
+			<label index="favorites">Favorites of user</label>
+			<label index="channel">Channel</label>
+			<label index="playList">Playlist-ID</label>
+			
+			<label index="orderByRelevance">Relevance</label>
+			<label index="orderByPublished">Date</label>
+			<label index="orderByUpdate">Updated</label>
+			<label index="orderByViewCount">Views</label>
+			<label index="orderByRating">Rating</label>
+			<label index="related">Related</label>
+			<label index="showSearchBox">Searchbox</label>
+			<label index="showTotalResults">Total results</label>
+			<label index="showPageBrowser">Pagebrowser</label>
+			<label index="showAuthor">Author</label>
+			<label index="showViewCount">Viewcount</label>
+			<label index="showFavoriteCount">Favoritecount</label>
+			<label index="showTitle">Titles</label>
+			<label index="showDescription">Description</label>
+			<label index="showLink">Links</label>
+			<label index="showDuration">Duration</label>
+			<label index="showComments">Comments</label>
+			<label index="showThumbnail">Thumbnails</label>
+			<label index="showRating">Rating</label>
+			
+			<label index="playerWidth">Width</label>
+			<label index="playerHeight">Height</label>
+			
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pluginLabel">Youtube Video Retriever</label>
+			<label index="listParameters">Allgemein</label>
+			<label index="displayParameters">Anzeige</label>
+			<label index="config">Einstellungen</label>
+			<label index="displayPlayer">Player</label>
+			
+			<label index="searchTerm">Suchbegriff</label>
+			<label index="developerKey"><![CDATA[  Developerkey (zu bekommen bei <a href="http://code.google.com/apis/youtube/dashboard/) ]]></label>
+			<label index="maxResults">Anzahl Ergebnisse pro Seite</label>
+			<label index="orderBy">Sortierung</label>
+			<label index="singlePage">Single Page</label>
+      <label index="showEmbedded">Videos einbetten</label>
+			
+			<label index="user">Youtube User</label>
+			<label index="category">Kategorie(n)</label>
+			<label index="keywords">Keyword(s)</label>
+			<label index="favorites">Favoriten des Users</label>
+			<label index="channel">Youtube Channel</label>
+			<label index="playList">Playlist-ID</label>
+			<label index="orderByRelevance">Relevanz</label>
+			<label index="orderByPublished">Datum</label>
+			<label index="orderByUpdate">Update</label>
+			<label index="orderByViewCount">Views</label>
+			<label index="orderByRating">Bewertung</label>
+			<label index="related">bezogene Suche</label>
+			<label index="showSearchBox">Suchbox</label>
+			<label index="showTotalResults">Gesamtergebniss</label>
+			<label index="showPageBrowser">Pagebrowser</label>
+			<label index="showAuthor">Autor</label>
+			<label index="showViewCount">Anzahl Views</label>
+			<label index="showFavoriteCount">Anzahl Favoriten</label>
+			<label index="showTitle">Titel</label>
+			<label index="showDescription">Beschreibung</label>
+			<label index="showLink">Links</label>
+			<label index="showDuration">Dauer</label>
+			<label index="showComments">Kommentare</label>
+			<label index="showThumbnail">Thumbnails</label>
+			<label index="showRating">Bewertung</label>
+			
+			<label index="playerWidth">Breite</label>
+			<label index="playerHeight">Höhe</label>
+			
+			
+		</languageKey>
+	</data>
+</T3locallang>

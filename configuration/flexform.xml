@@ -1,0 +1,362 @@
+<T3DataStructure>
+ <meta>
+       <langDisable>1</langDisable>
+ </meta>
+ <sheets>
+  <listParams>
+   <ROOT>
+    <TCEforms>
+     <sheetTitle>LLL:EXT:youtubeapi/locallang_db.xml:listParameters</sheetTitle>
+    </TCEforms>
+    <type>array</type>
+     <el>
+          
+     <developerKey>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:developerKey</label>
+	<config>
+	<type>input</type>
+	</config>
+	</TCEforms>
+     </developerKey>	
+	
+     <maxResults>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:maxResults</label>
+	<config>
+	<type>input</type>
+	<size>2</size>
+	</config>
+	</TCEforms>
+     </maxResults>	
+	
+     <orderBy>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:orderBy</label>
+	<config>
+	<type>select</type>
+	<items type="array">
+	<numIndex index="0" type="array">
+	 <numIndex index="0">LLL:EXT:youtubeapi/locallang_db.xml:orderByRelevance</numIndex>
+	 <numIndex index="1">relevance</numIndex>
+	</numIndex>
+	<numIndex index="1" type="array">
+	 <numIndex index="0">LLL:EXT:youtubeapi/locallang_db.xml:orderByPublished</numIndex>
+	 <numIndex index="1">published</numIndex>
+	</numIndex>
+	<numIndex index="2" type="array">
+	 <numIndex index="0">LLL:EXT:youtubeapi/locallang_db.xml:orderByUpdate</numIndex>
+	 <numIndex index="1">updated</numIndex>
+	</numIndex>
+	<numIndex index="3" type="array">
+	 <numIndex index="0">LLL:EXT:youtubeapi/locallang_db.xml:orderByViewCount</numIndex>
+	 <numIndex index="1">viewCount</numIndex>
+	</numIndex>
+	<numIndex index="4" type="array">
+	 <numIndex index="0">LLL:EXT:youtubeapi/locallang_db.xml:orderByRating</numIndex>
+	 <numIndex index="1">rating</numIndex>
+	</numIndex>
+	</items>
+	</config>
+	</TCEforms>
+     </orderBy>
+     
+  <showEmbedded>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showEmbedded</label>
+	<config>
+	<type>check</type>
+	<default>0</default>
+	</config>
+	</TCEforms>
+  </showEmbedded>
+<!--
+     <related>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:related</label>
+	<config>
+	<type>check</type>
+	</config>
+	</TCEforms>
+     </related>
+-->
+
+    <singlePageUid>
+      <TCEforms>
+       <exclude>1</exclude>
+       <label>LLL:EXT:youtubeapi/locallang_db.xml:singlePage</label>
+       <config>
+        <type>group</type>
+        <internal_type>db</internal_type>
+        <allowed>pages</allowed>
+        <size>3</size>
+        <maxitems>1</maxitems>
+        <minitems>0</minitems>
+        <show_thumbs>0</show_thumbs>
+       </config>
+      </TCEforms>
+     </singlePageUid>
+
+     </el>
+    </ROOT>
+   </listParams>
+   
+   <userRelated>
+    <ROOT>
+     <TCEforms>
+      <sheetTitle>LLL:EXT:youtubeapi/locallang_db.xml:config</sheetTitle>
+     </TCEforms>
+     <type>array</type>
+     <el>
+    
+    <searchTerm>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:searchTerm</label>
+	<config>
+	<type>input</type>
+	<size>20</size>
+	</config>
+	</TCEforms>
+     </searchTerm>
+    
+    <keywords>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:keywords</label>
+	<config>
+	<type>input</type>
+	<size>20</size>
+	</config>
+	</TCEforms>
+     </keywords>
+     
+    <category>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:category</label>
+	<config>
+	<type>input</type>
+	<size>20</size>
+	</config>
+	</TCEforms>
+     </category>
+
+   <channel>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:channel</label>
+	<config>
+	<type>input</type>
+	<size>20</size>
+	</config>
+	</TCEforms>
+     </channel>
+<!--
+  <user>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:user</label>
+	<config>
+	<type>input</type>
+	<size>20</size>
+	</config>
+	</TCEforms>
+     </user>
+
+     <favorites>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:favorites</label>
+	<config>
+	<type>input</type>
+	<size>20</size>
+	</config>
+	</TCEforms>
+     </favorites>
+-->
+  
+     <playList>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:playList</label>
+	<config>
+	<type>input</type>
+	<size>20</size>
+	</config>
+	</TCEforms>
+     </playList>
+	
+     </el>
+    </ROOT>
+   </userRelated>
+   
+   <displayParams>
+    <ROOT>
+     <TCEforms>
+      <sheetTitle>LLL:EXT:youtubeapi/locallang_db.xml:displayParameters</sheetTitle>
+     </TCEforms>
+     <type>array</type>
+     <el>
+     
+  <showPageBrowser>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showPageBrowser</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showPageBrowser>
+
+     <showSearchBox>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showSearchBox</label>
+	<config>
+	<type>check</type>
+	</config>
+	</TCEforms>
+     </showSearchBox>
+     
+     <showTotalResults>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showTotalResults</label>
+	<config>
+	<type>check</type>
+	</config>
+	</TCEforms>
+     </showTotalResults>
+
+     <showDescription>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showDescription</label>
+	<config>
+	<type>check</type>
+	</config>
+	</TCEforms>
+     </showDescription>
+
+     <showAuthor>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showAuthor</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showAuthor>
+
+      <showTitle>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showTitle</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showTitle>
+
+     <showLink>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showLink</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showLink>
+
+     <showViewCount>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showViewCount</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showViewCount>
+
+     <showFavoriteCount>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showFavoriteCount</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showFavoriteCount>
+
+     <showComments>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showComments</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showComments>
+
+     <showDuration>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showDuration</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showDuration>
+
+    <showThumbnail>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showThumbnail</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showThumbnail>
+
+    <showRating>
+	<TCEforms>
+	<label>LLL:EXT:youtubeapi/locallang_db.xml:showRating</label>
+	<config>
+	<type>check</type>
+	<default>1</default>
+	</config>
+	</TCEforms>
+     </showRating>
+
+     </el>
+    </ROOT>
+   </displayParams>
+   
+   <displayPlayer>
+    <ROOT>
+     <TCEforms>
+      <sheetTitle>LLL:EXT:youtubeapi/locallang_db.xml:displayPlayer</sheetTitle>
+     </TCEforms>
+     <type>array</type>
+     <el>
+     
+     <playerWidth>
+    	<TCEforms>
+    	<label>LLL:EXT:youtubeapi/locallang_db.xml:playerWidth</label>
+    	<config>
+    	<type>input</type>
+    	<default>320</default>
+    	<size>4</size>
+    	</config>
+    	</TCEforms>
+     </playerWidth>
+     
+     <playerHeight>
+    	<TCEforms>
+    	<label>LLL:EXT:youtubeapi/locallang_db.xml:playerHeight</label>
+    	<config>
+    	<type>input</type>
+    	<size>4</size>
+    	<default>240</default>
+    	</config>
+    	</TCEforms>
+     </playerHeight>
+
+
+     </el>
+    </ROOT>
+   </displayPlayer>
+   
+  </sheets>
+</T3DataStructure>
